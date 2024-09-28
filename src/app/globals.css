@@ -1,0 +1,161 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background-color: black;
+  color:white;
+  font-weight: bold;
+  font-size: large;
+  padding: 20px;
+
+}
+.header-buttons{
+
+display:flex;
+justify-content: center;
+align-items: left;
+gap: 30px;
+}
+.h1{
+  color: green;
+      font-size: 36px;
+      text-align: center;
+      font-family: Arial, sans-serif;
+}
+.contact-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-btn {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
+
+.jobs-container1 {
+  padding: 20px;
+}
+.jobs-list {
+  margin-top: 20px;
+}
+.job-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-bottom: 10px;
+}
+p {
+  margin: 5px 0;
+}
+.foot-buttons{
+
+  display:flex;
+  justify-content: center;
+  align-items: left;
+  gap: 30px;
+  }
+  
+/* styles/Foot.module.css */
+.foot {
+  background-color:darkblue;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+align-items: left;
+gap: 30px;
+}
+
+.social-media-icons {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.social-media-icons a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+  
+  gap: 70px;
+}
+
+.social-media-icons a:hover {
+  color: #0077b5; /* Hover color for LinkedIn-style */
+  transition: color 0.3s ease;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+  text-decoration: underline;
+  font-weight: bold;
+  background-color: azure;
+
+}
+
+.h3{
+  text-decoration: underline;
+}
